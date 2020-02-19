@@ -9,7 +9,7 @@ Add a step to your GitHub Actions workflow YAML that uses this action:
 ```yml
 steps:
   - uses: actions/checkout@master
-  - uses: iansu/codecov-action-node@v1.0.0
+  - uses: iansu/codecov-action-node@v1
     with:
       token: ${{secrets.CODECOV_TOKEN}} #required
       file: ./coverage.xml #optional
