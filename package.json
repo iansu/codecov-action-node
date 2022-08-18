@@ -18,7 +18,7 @@
     }
   },
   "dependencies": {
-    "@actions/core": "^1.1.1",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^1.1.0",
     "codecov": "^3.6.5"
   },
